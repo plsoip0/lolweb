@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المميزات</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PremBot</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('home') }}">الصفحة الرئيسية</a></li>
+            <li><a href="{{ url_for('features') }}">المميزات</a></li>
+            <li><a href="{{ url_for('resources') }}">الحقوق</a></li>
+            <li><a href="#">بريموم</a></li>
+            <li><a href="#">قريبا</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <h1>المميزات</h1>
+        <p>إليك بعض المميزات:</p>
+        <ul>
+            <li>1 - رفع ملف على الاستضافه -uploadfile</li>
+            <li>2 - تحكم بالملفات المرفوعه عندك -controlservers</li>
+            <li>3 - لفحص بنق البوت -ping</li>
+            <li>4 - رابط سيرفر الديسكورد -serverdiscord</li>
+        </ul>
+    </div>
+</body>
+</html>

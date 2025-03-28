@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحقوق</title>
+    <link rel="stylesheet" href="styles.css"> <!-- ملف CSS منفصل -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">PremBot</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('home') }}">الصفحة الرئيسية</a></li>
+            <li><a href="{{ url_for('features') }}">المميزات</a></li>
+            <li><a href="{{ url_for('resources') }}">الحقوق</a></li>
+            <li><a href="#">بريموم</a></li>
+            <li><a href="#">قريبا</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <h1>الحقوق</h1>
+        <p>صنع من قبل:</p>
+        <ul>
+            <li>رونالدو</li>
+            <li>صخب</li>
+        </ul>
+    </div>
+</body>
+</html>
